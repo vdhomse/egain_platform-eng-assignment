@@ -63,7 +63,7 @@ The core implementation is a **simplified, local-first version** of the platform
 
 **Detailed setup instructions, API documentation, and examples** are provided in:
 
-👉 **`app/README.md`**
+👉 **[app/README.md](app/README.md)**
 
 This includes:
 - Environment setup
@@ -96,7 +96,7 @@ The Terraform configuration includes:
 
 ## Setup Instructions
 
-See **`app/README.md`** for:
+See **[app/README.md](app/README.md)** for:
 - Local setup
 - Environment variables
 - Running the service
@@ -105,7 +105,7 @@ See **`app/README.md`** for:
 
 ## Running Tests
 
-See **`app/README.md`** for instructions to run unit tests and benchmarks.
+See **[app/README.md](app/README.md)** for instructions to run unit tests and benchmarks.
 
 ---
 
@@ -113,7 +113,7 @@ See **`app/README.md`** for instructions to run unit tests and benchmarks.
 
 Detailed API usage examples (ingestion, search, metrics) are documented in:
 
-👉 **`app/README.md`**
+👉 **[app/README.md](app/README.md)**
 
 Swagger UI is available when running locally at:
 http://localhost:8000/docs
@@ -155,5 +155,4 @@ http://localhost:8000/docs
 ## Notes for Reviewers
 
 This repository is structured to allow evaluation through documentation alone.
-If you choose to run the service locally, all required steps are documented in `app/README.md`.
-
+If you choose to run the service locally, all required steps are documented in [app/README.md](app/README.md).
