@@ -1,0 +1,22 @@
+[project]
+name = "egain-knowledge-service"
+version = "0.1.0"
+description = "Multi-tenant knowledge indexing service (assignment implementation) using FastAPI + SQLite FTS5."
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi>=0.110",
+  "uvicorn[standard]>=0.27",
+  "pydantic>=2.6",
+  "prometheus-client>=0.20",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+  "pytest-cov>=5.0",
+  "httpx>=0.27",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
