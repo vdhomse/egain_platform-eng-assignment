@@ -40,9 +40,8 @@ The system design describes a **multi-tenant knowledge indexing and search platf
 - Technology choices and tradeoffs
 
 **Design documents:**
-- PDF: `design/egain_system_design.pdf`
-- Markdown: `design/system_design.md`
-- Architecture Diagram (Mermaid): `design/architecture_diagram.md`
+- PDF: [design/egain_system_design.pdf](design/egain_system_design.pdf)
+- Architecture Diagram (Mermaid): [design/architecture_diagram.md](design/architecture_diagram.md)
 
 ---
 
@@ -157,5 +156,4 @@ http://localhost:8000/docs
 
 This repository is structured to allow evaluation through documentation alone.
 If you choose to run the service locally, all required steps are documented in `app/README.md`.
-
 
