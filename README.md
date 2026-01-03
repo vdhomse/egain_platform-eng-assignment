@@ -13,9 +13,9 @@ by reading documentation alone, without needing to run the services.
 ```text
 .
 ├── README.md                     # Submission overview (this file)
-├── DESIGN.md                     # System design (Markdown)
 ├── design/
-│   └── egain_system_design.pdf   # System design (PDF)
+│   ├── egain_system_design.pdf   # System design (PDF)
+│   └── architecture_diagram.md.  # Architecture mermaid diagram                        
 ├── app/                          # Part 2: Core implementation source code (FastAPI)
 │   ├── README.md                 # Implementation details, API usage, examples
 │   └── *.py                             
@@ -123,10 +123,10 @@ http://localhost:8000/docs
 
 ## Time Spent
 
-- Part 1 (System design): ~X hours
-- Part 2 (Core implementation, tests, benchmarking): ~Y hours
-- Part 3 (Infrastructure as Code): ~Z hours
-- Documentation, cleanup, and packaging: ~W hours
+- Part 1 (System design): 2 days
+- Part 2 (Core implementation, tests, benchmarking): 2 days
+- Part 3 (Infrastructure as Code): 1 day
+- Documentation, cleanup, and packaging: 1 day
 
 ---
 
