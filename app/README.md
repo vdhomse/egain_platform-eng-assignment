@@ -77,8 +77,9 @@ curl -s http://localhost:8000/api/v1/metrics | python -m json.tool
 ```
 
 ## Running Tests
+From the repo root (`egain_platform-eng-assignment`):
 ```bash
-pytest --cov=app
+PYTHONPATH=. pytest --cov=app
 ```
 
 ## Benchmark
@@ -118,5 +119,3 @@ sub-100ms latency for datasets up to ~10K documents in local benchmarks.
 > In production, the same APIs would be backed by MySQL, Amazon OpenSearch, and Amazon SQS.
 
 ---
-
-

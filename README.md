@@ -15,10 +15,10 @@ by reading documentation alone, without needing to run the services.
 ├── README.md                     # Submission overview (this file)
 ├── design/
 │   ├── egain_system_design.pdf   # System design (PDF)
-│   └── architecture_diagram.md.  # Architecture mermaid diagram                        
+│   └── architecture_diagram.md   # Architecture mermaid diagram                        
 ├── app/                          # Part 2: Core implementation source code (FastAPI)
 │   ├── README.md                 # Implementation details, API usage, examples
-│   └── *.py                             
+│   └── *.py                      # source code files
 ├── tests/                        # Unit tests
 ├── scripts/
 │   └── benchmark.py              # Basic performance benchmark
@@ -90,7 +90,7 @@ The Terraform configuration includes:
 - Autoscaling based on CPU and memory utilization
 
 **IaC documentation and deployment instructions:**
-👉 **`iac/terraform/README.md`**
+👉 **[iac/terraform/README.md](iac/terraform/README.md)**
 
 ---
 
